@@ -1,0 +1,1 @@
+This is my attempt at the landing page project in the odin course.
