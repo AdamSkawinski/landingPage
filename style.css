@@ -163,7 +163,6 @@ body {
 
   .action-square{
       display: flex;
-      justify-content: space-around;
       background-color: #3882F6;
       border-radius: 6px;
       padding: 8px;
@@ -171,15 +170,32 @@ body {
   }
 
   .cta-left{
- 
+    display: flex;
+    flex-direction: column;
+    color: white;
   }
 
+  .cta-l-top{
+    font-weight: bolder;
+    font-size: 22px;
+  }
+
+  .cta-left p{
+    margin: 5px;
+  }
   .cta-right{
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-left: 100px;
   }
 
   .cta-button{
-    border: 2px whitesmoke;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    width: 95px;
+    height: 30px;
   }
